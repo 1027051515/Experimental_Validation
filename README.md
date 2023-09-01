@@ -25,11 +25,10 @@ Recent work has utilized Moore-Penrose (MP) inverse in deep convolutional neural
 * Source code for evaluating batch-by-batch strategy: [Caltech-101](https://github.com/1027051515/Experimental_Validation/blob/main/Main_file.m)
 
 ## Dependancies
-* Matlab version 2022a,
-* A workstation with a 256GB memory and an E5-2650 processor.
+* Matlab 
 
 ## Reproduce the Experimental Results
 
-Run script "OBLS_DOBLS.m" for reproduciility.
+Run script "Main_file.m" for reproduciility.
 
-#The code is released in content-obscured version (p files). After acceptance of the manuscript (if decided so), the source code will be made public.
+#Set "Onebatchlearning = 2" for batch-by-batch learning; Set "Onebatchlearning = 1" for one-batch learning
