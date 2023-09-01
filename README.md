@@ -24,7 +24,7 @@ Recent work has utilized Moore-Penrose (MP) inverse in deep convolutional neural
 
 ## Reproduce the Experimental Results
 
-Run script "Main_file.m" for reproduciility.
+#Download "Caltech-101 (Inception-v3) features" and "Source code for evaluating batch-by-batch strategy". Run script "Main_file.m" for reproduciility.
 
 #Set "Onebatchlearning = 2" for batch-by-batch learning; Set "Onebatchlearning = 1" for one-batch learning
 
