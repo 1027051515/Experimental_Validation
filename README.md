@@ -9,10 +9,6 @@ Recent work has utilized Moore-Penrose (MP) inverse in deep convolutional neural
 * I. Architecture side - A new batch-by-batch learning algorithm based on the MP inverse strategy for DCNN is proposed.
 
 * II. Methodology side - A random layer freezing strategy is proposed to speed up the training.
-  
-## Learning Structure:
-
-<img src="https://github.com/1027051515/OBLS_DOBLS/blob/main/f2.png" width="1050" height="300" />
 
 ## Related Work:
 
@@ -32,3 +28,5 @@ Recent work has utilized Moore-Penrose (MP) inverse in deep convolutional neural
 Run script "Main_file.m" for reproduciility.
 
 #Set "Onebatchlearning = 2" for batch-by-batch learning; Set "Onebatchlearning = 1" for one-batch learning
+
+#The obtained "beta" gives the calculated weights. This experiment verifies the two modes give the same weights.
